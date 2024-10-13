@@ -25,22 +25,16 @@
 
 				<ul class="mt-2.5 grid gap-y-2.5">
 					<li>
-						<a href="" class="block w-full py-2 lg:py-0">Programas</a>
-					</li>
-					<li>
-						<a href="" class="block w-full py-2 lg:py-0">Programación</a>
+						<a href="" class="block w-full py-2 lg:py-0">Información y opinión</a>
 					</li>
 					<li>
 						<a href="" class="block w-full py-2 lg:py-0">Novelas</a>
 					</li>
 					<li>
-						<a href="" class="block w-full py-2 lg:py-0">Series</a>
+						<a href="" class="block w-full py-2 lg:py-0">Películas</a>
 					</li>
 					<li>
-						<a href="" class="block w-full py-2 lg:py-0">Peliculas</a>
-					</li>
-					<li>
-						<a href="" class="block w-full py-2 lg:py-0">Fin de semana Especial</a>
+						<a href="" class="block w-full py-2 lg:py-0">Deportes</a>
 					</li>
 					<li>
 						<a href="" class="block w-full py-2 lg:py-0">Noticias</a>
@@ -130,15 +124,15 @@
 						class="h-[60px] object-contain">
 				</li>
 				<li class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/coral-logo.png" alt="Coral"
+						class="h-[60px] object-contain">
+				</li>
+				<li class="">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/nota-logo.png" alt="La nota"
 						class="h-[60px] object-contain">
 				</li>
 				<li class="">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/hijb-logo.png" alt="HIJB"
-						class="h-[60px] object-contain">
-				</li>
-				<li class="">
-					<img src="<?php echo get_template_directory_uri(); ?>/images/coral-logo.png" alt="Coral"
 						class="h-[60px] object-contain">
 				</li>
 			</ul>
