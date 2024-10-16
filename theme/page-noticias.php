@@ -23,7 +23,7 @@ get_header();
       <h5 class="text-m-b lg:text-h5 text-yellow-YellowTeleantillas">Noticias</h5>
 
       <div class="mt-5 grid grid-cols-1 gap-[30px] md:grid-cols-[1fr_300px]">
-        <article class="from-overlay-100 to-overlay-0 relative h-[460px] w-full bg-gradient-to-t">
+        <article class="rounded-lg from-overlay-100 to-overlay-0 relative h-[460px] w-full bg-gradient-to-t">
           <a href="#" class="rounded-lg">
             <img src="<?php echo get_template_directory_uri(); ?>/images/img-14.png" alt="" class="absolute left-0 top-0 h-full w-full rounded-lg object-cover">
 

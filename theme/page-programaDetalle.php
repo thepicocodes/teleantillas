@@ -39,6 +39,9 @@ get_header();
     <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
       <div class="w-full h-full bg-[#D6CCFF]"></div>
     </div>
+    <!--  -->
+
+    <div class="rounded-2xl w-full max-w-[1000px] h-[532px] mt-10 bg-blue-50"></div>
 
     <section class="mt-10">
       <div class="flex flex-row items-center justify-between">
@@ -163,7 +166,7 @@ get_header();
             </div>
           </a>
           <div class="flex justify-center">
-            <button class="rounded-lg mt-10 p-4 flex flex-row items-center justify-center gap-x-2 text-body-b lg:text-xl-b text-white bg-blue-telesistema">
+            <button class="rounded-lg mt-10 p-4 flex flex-row items-center justify-center gap-x-2 text-body-b lg:text-xl-b text-white bg-yellow-YellowTeleantillas">
               Cargar más
               <svg xmlns="http://www.w3.org/2000/svg" class="h-4 lg:h-5 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                 <path d="M169.4 470.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 370.8 224 64c0-17.7-14.3-32-32-32s-32 14.3-32 32l0 306.7L54.6 265.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
@@ -226,7 +229,7 @@ get_header();
       <h5 class="text-xl lg:text-h5 text-blue-telesistema">Otros Programas</h5>
       <div class="mt-10 grid md:grid-cols-3 gap-y-10 gap-x-5 justify-center md:justify-start">
         <a href="#" class="group relative block w-full h-full bg-white">
-          <article class="relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+          <article class="rounded-lg relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
             <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
               <h5 class="text-m-b">Freites & su gente</h5>
@@ -241,7 +244,7 @@ get_header();
           </article>
         </a>
         <a href="#" class="group relative block w-full h-full bg-white">
-          <article class="relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+          <article class="rounded-lg relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
             <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
               <h5 class="text-m-b">Freites & su gente</h5>
@@ -256,7 +259,7 @@ get_header();
           </article>
         </a>
         <a href="#" class="group relative block w-full h-full bg-white">
-          <article class="relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+          <article class="rounded-lg relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
             <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
               <h5 class="text-m-b">Freites & su gente</h5>
@@ -315,7 +318,7 @@ get_header();
         </div>
         <div class="relative h-[300px]">
           <a href="#" class="relative block w-full h-full bg-white">
-            <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+            <article class="rounded-lg relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
               <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
                 <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-lightBlue-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -362,7 +365,7 @@ get_header();
 
       <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
         <a href="#" class="relative block w-full h-full bg-white">
-          <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+          <article class="rounded-lg relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
               <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-lightBlue-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
@@ -386,7 +389,7 @@ get_header();
         </div>
 
         <a href="#" class="relative block w-full h-full bg-white">
-          <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+          <article class="rounded-lg relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
               <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-lightBlue-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

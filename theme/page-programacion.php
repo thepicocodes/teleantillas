@@ -209,9 +209,9 @@ get_header();
         </div>
         <div class="relative h-[300px]">
           <a href="#" class="relative block w-full h-full bg-white">
-            <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+            <article class="rounded-lg relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
               <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
-                <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-[#FF0000]">
+                <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-lightBlue-primary">
                   <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                     <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
                   </svg>
@@ -249,9 +249,9 @@ get_header();
 
       <div class="mt-6 grid md:grid-cols-2 lg:grid-cols-3 gap-x-5 gap-y-5">
         <a href="#" class="relative block w-full h-full bg-white">
-          <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+          <article class="rounded-lg relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
-              <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-[#FF0000]">
+              <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-lightBlue-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                   <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
                 </svg>
@@ -272,9 +272,9 @@ get_header();
         </div>
 
         <a href="#" class="relative block w-full h-full bg-white">
-          <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+          <article class="rounded-lg relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
-              <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-[#FF0000]">
+              <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-lightBlue-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
                   <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
                 </svg>
