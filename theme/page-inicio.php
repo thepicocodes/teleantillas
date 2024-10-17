@@ -38,7 +38,7 @@ get_header();
 
         <div class="flex flex-col gap-5">
           <a href="">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/info-teleantillas.png" alt="" class="max-w-[300px] h-[140px]">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/coral-logo-lg.png" alt="" class="max-w-[300px] h-[140px]">
           </a>
 
           <a href=" /">
@@ -76,17 +76,14 @@ get_header();
       <div>
         <div class="mb-4 flex items-center justify-between">
           <h3 class="lg:text-h5 text-blue-telesistema text-xl-b">Programación</h3>
-          <a href="#" class="text-m-b flex items-center gap-x-2 text-yellow-YellowTeleantillas">
-            Ver más
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-yellow-YellowTeleantillas" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </a>
+
         </div>
         <div class="mt-6 flex flex-row items-center gap-x-4 rounded-lg border-2 border-blue-200 bg-blue-100 p-4 text-blue-900">
           <div class="flex w-full flex-row items-center justify-between">
             <div class="flex flex-row items-center gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-04.png" alt="" class="block h-24 w-24 rounded-lg">
+              <div class="block h-24 w-24 rounded-lg bg-blue-teleantillas">
+                <!-- img -->
+              </div>
               <div>
                 <h4 class="text-body-b">Esto no tiene nombre</h4>
                 <span class="font-normal">Locutor 1 y Locutor 2</span>
@@ -100,7 +97,9 @@ get_header();
         <div class="mt-4 flex flex-row items-center gap-x-4 rounded-lg border-2 border-blue-200 bg-blue-100 p-4 text-blue-900">
           <div class="flex w-full flex-row items-center justify-between">
             <div class="flex flex-row items-center gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-04.png" alt="" class="block h-24 w-24 rounded-lg">
+              <div class="block h-24 w-24 rounded-lg bg-blue-teleantillas">
+                <!-- img -->
+              </div>
               <div>
                 <h4 class="text-body-b">La RepúblicaLa r</h4>
                 <span class="font-normal">Locutor 1 y Locutor 2</span>
@@ -114,7 +113,9 @@ get_header();
         <div class="mt-4 flex flex-row items-center gap-x-4 rounded-lg border-2 border-blue-200 bg-blue-100 p-4 text-blue-900">
           <div class="flex w-full flex-row items-center justify-between">
             <div class="flex flex-row items-center gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-04.png" alt="" class="block h-24 w-24 rounded-lg">
+              <div class="block h-24 w-24 rounded-lg bg-blue-teleantillas">
+                <!-- img -->
+              </div>
               <div>
                 <h4 class="text-body-b">Esto no tiene nombre</h4>
                 <span class="font-normal">Locutor 1 y Locutor 2</span>
@@ -252,12 +253,6 @@ get_header();
       <div class="">
         <div class="mb-4 flex items-center justify-between">
           <h2 class="lg:text-h5 text-blue-telesistema text-xl-b">Episodios anteriores</h2>
-          <a href="#" class="text-m-b flex items-center gap-x-2 text-yellow-YellowTeleantillas">
-            Ver más
-            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-yellow-YellowTeleantillas" viewBox="0 0 448 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-              <path d="M438.6 278.6c12.5-12.5 12.5-32.8 0-45.3l-160-160c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L338.8 224 32 224c-17.7 0-32 14.3-32 32s14.3 32 32 32l306.7 0L233.4 393.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0l160-160z" />
-            </svg>
-          </a>
         </div>
 
         <!-- Swiper Container -->

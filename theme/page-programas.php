@@ -11,10 +11,8 @@ get_header();
 
 <div class="py-2 bg-lightBlue-100">
   <ul id="sub-menu" class="w-full flex items-center justify-center gap-x-2 text-xs-b text-blue-900 overflow-auto no-scrollbar">
-    <li><a href="<?php echo esc_url(home_url('/Todos/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Todos</a></li>
-    <li><a href="<?php echo esc_url(home_url('/Información y opinión/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Novelas</a></li>
-    <li><a href="<?php echo esc_url(home_url('/Variedades/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Series</a></li>
-    <li><a href="<?php echo esc_url(home_url('/Infantil-Juvenil/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Peliculas</a></li>
+    <li><a href="<?php echo esc_url(home_url('/Todos/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Noticias</a></li>
+    <li><a href="<?php echo esc_url(home_url('/Todos/')); ?>" class="block px-2 py-1 hover:text-blue-1000 focus:text-blue-1000 focus:border-b focus:border-blue-1000 border-b border-b-transparent hover:border-b hover:border-blue-1000">Nopmbre del programa</a></li>
   </ul>
 </div>
 <!--  -->
@@ -62,9 +60,12 @@ get_header();
         <div>
           <!-- all -->
           <div class="section-item all grid md:grid-cols-2 mb-10 gap-1.5 lg:justify-start">
+
             <a href="#" class="group relative block w-full h-full bg-white">
-              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute bottom-0 left-0 w-full h-full">
+              <article class="rounded-lg relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <div class="rounded-lg absolute bottom-0 left-0 w-full h-full bg-blue-teleantillas">
+                  <!-- img -->
+                </div>
                 <div class="rounded-lg w-full h-full relative z-[1] p-4 text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
                   <div class="absolute bottom-4">
                     <h5 class="text-m-b">telenoticias: Hora cero</h5>
@@ -80,8 +81,10 @@ get_header();
             </a>
 
             <a href="#" class="group relative block w-full h-full bg-white">
-              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute bottom-0 left-0 w-full h-full">
+              <article class="rounded-lg relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <div class="rounded-lg absolute bottom-0 left-0 w-full h-full bg-blue-teleantillas">
+                  <!-- img -->
+                </div>
                 <div class="rounded-lg w-full h-full relative z-[1] p-4 text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
                   <div class="absolute bottom-4">
                     <h5 class="text-m-b">telenoticias: Hora cero</h5>
@@ -97,8 +100,10 @@ get_header();
             </a>
 
             <a href="#" class="group relative block w-full h-full bg-white">
-              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute bottom-0 left-0 w-full h-full">
+              <article class="rounded-lg relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <div class="rounded-lg absolute bottom-0 left-0 w-full h-full bg-blue-teleantillas">
+                  <!-- img -->
+                </div>
                 <div class="rounded-lg w-full h-full relative z-[1] p-4 text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
                   <div class="absolute bottom-4">
                     <h5 class="text-m-b">telenoticias: Hora cero</h5>
@@ -114,8 +119,10 @@ get_header();
             </a>
 
             <a href="#" class="group relative block w-full h-full bg-white">
-              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute bottom-0 left-0 w-full h-full">
+              <article class="rounded-lg relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <div class="rounded-lg absolute bottom-0 left-0 w-full h-full bg-blue-teleantillas">
+                  <!-- img -->
+                </div>
                 <div class="rounded-lg w-full h-full relative z-[1] p-4 text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
                   <div class="absolute bottom-4">
                     <h5 class="text-m-b">telenoticias: Hora cero</h5>
@@ -131,8 +138,10 @@ get_header();
             </a>
 
             <a href="#" class="group relative block w-full h-full bg-white">
-              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute bottom-0 left-0 w-full h-full">
+              <article class="rounded-lg relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <div class="rounded-lg absolute bottom-0 left-0 w-full h-full bg-blue-teleantillas">
+                  <!-- img -->
+                </div>
                 <div class="rounded-lg w-full h-full relative z-[1] p-4 text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
                   <div class="absolute bottom-4">
                     <h5 class="text-m-b">telenoticias: Hora cero</h5>
@@ -148,8 +157,10 @@ get_header();
             </a>
 
             <a href="#" class="group relative block w-full h-full bg-white">
-              <article class="relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute bottom-0 left-0 w-full h-full">
+              <article class="rounded-lg relative w-full h-[342px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <div class="rounded-lg absolute bottom-0 left-0 w-full h-full bg-blue-teleantillas">
+                  <!-- img -->
+                </div>
                 <div class="rounded-lg w-full h-full relative z-[1] p-4 text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
                   <div class="absolute bottom-4">
                     <h5 class="text-m-b">telenoticias: Hora cero</h5>
@@ -232,7 +243,9 @@ get_header();
         <div class="mt-4 flex flex-row items-center gap-x-4 rounded-lg border-2 border-blue-200 bg-blue-100 p-4 text-blue-900">
           <div class="flex w-full flex-row items-center justify-between">
             <div class="flex flex-row items-center gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-04.png" alt="" class="block h-24 w-24 rounded-lg">
+              <div class="block h-24 w-24 rounded-lg bg-blue-teleantillas">
+                <!-- img -->
+              </div>
               <div>
                 <h4 class="text-body-b">Esto no tiene nombre</h4>
                 <span class="font-normal">Locutor 1 y Locutor 2</span>
@@ -246,7 +259,9 @@ get_header();
         <div class="mt-4 flex flex-row items-center gap-x-4 rounded-lg border-2 border-blue-200 bg-blue-100 p-4 text-blue-900">
           <div class="flex w-full flex-row items-center justify-between">
             <div class="flex flex-row items-center gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-04.png" alt="" class="block h-24 w-24 rounded-lg">
+              <div class="block h-24 w-24 rounded-lg bg-blue-teleantillas">
+                <!-- img -->
+              </div>
               <div>
                 <h4 class="text-body-b">La RepúblicaLa r</h4>
                 <span class="font-normal">Locutor 1 y Locutor 2</span>
@@ -260,7 +275,9 @@ get_header();
         <div class="mt-4 flex flex-row items-center gap-x-4 rounded-lg border-2 border-blue-200 bg-blue-100 p-4 text-blue-900">
           <div class="flex w-full flex-row items-center justify-between">
             <div class="flex flex-row items-center gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-04.png" alt="" class="block h-24 w-24 rounded-lg">
+              <div class="block h-24 w-24 rounded-lg bg-blue-teleantillas">
+                <!-- img -->
+              </div>
               <div>
                 <h4 class="text-body-b">Esto no tiene nombre</h4>
                 <span class="font-normal">Locutor 1 y Locutor 2</span>
@@ -279,6 +296,115 @@ get_header();
       <div class="w-full h-full bg-[#D6CCFF]"></div>
     </div>
     <!--  -->
+
+    <section class="mx-auto mt-10 max-w-[960px]">
+      <div class="">
+        <div class="mb-4 flex items-center justify-between">
+          <h2 class="lg:text-h5 text-blue-telesistema text-xl-b">Episodios anteriores</h2>
+        </div>
+
+        <!-- Swiper Container -->
+        <div class="relative">
+          <div class="swiper home-swiper swiper2">
+            <div class="swiper-wrapper">
+              <article class="swiper-slide relative w-full bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <a href="#" class="relative block w-full h-[300px] bg-white">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover">
+                  <div class="absolute right-2.5 top-2.5 z-[2] px-4 py-2 ">
+                    <span class="flex h-[34px] w-[34px] items-center justify-center rounded-full bg-lightBlue-primary drop-shadow-md">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                    <div class="rounded-[18px] w-fit py-1 px-2 inline bg-yellow-YellowTeleantillas text-blue-100 text-xs-b">Medios</div>
+                    <p class="mt-2 text-m-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <div class="mt-2 text-xs text-lightBlue-100">
+                      Victor Santana • 08/04/2024 14:51
+                    </div>
+                  </div>
+                </a>
+              </article>
+
+              <article class="swiper-slide relative w-full bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <a href="#" class="relative block w-full h-[300px] bg-white">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover">
+                  <div class="absolute right-2.5 top-2.5 z-[2] px-4 py-2 ">
+                    <span class="flex h-[34px] w-[34px] items-center justify-center rounded-full bg-lightBlue-primary drop-shadow-md">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                    <div class="rounded-[18px] w-fit py-1 px-2 inline bg-yellow-YellowTeleantillas text-blue-100 text-xs-b">Medios</div>
+                    <p class="mt-2 text-m-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <div class="mt-2 text-xs text-lightBlue-100">
+                      Victor Santana • 08/04/2024 14:51
+                    </div>
+                  </div>
+                </a>
+              </article>
+              <article class="swiper-slide relative w-full bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <a href="#" class="relative block w-full h-[300px] bg-white">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover">
+                  <div class="absolute right-2.5 top-2.5 z-[2] px-4 py-2 ">
+                    <span class="flex h-[34px] w-[34px] items-center justify-center rounded-full bg-lightBlue-primary drop-shadow-md">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                    <div class="rounded-[18px] w-fit py-1 px-2 inline bg-yellow-YellowTeleantillas text-blue-100 text-xs-b">Medios</div>
+                    <p class="mt-2 text-m-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <div class="mt-2 text-xs text-lightBlue-100">
+                      Victor Santana • 08/04/2024 14:51
+                    </div>
+                  </div>
+                </a>
+              </article>
+              <article class="swiper-slide relative w-full bg-gradient-to-t from-overlay-100 to-overlay-0">
+                <a href="#" class="relative block w-full h-[300px] bg-white">
+                  <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="rounded-lg absolute top-0 left-0 w-full h-full object-cover">
+                  <div class="absolute right-2.5 top-2.5 z-[2] px-4 py-2 ">
+                    <span class="flex h-[34px] w-[34px] items-center justify-center rounded-full bg-lightBlue-primary drop-shadow-md">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                        <path d="M73 39c-14.8-9.1-33.4-9.4-48.5-.9S0 62.6 0 80V432c0 17.4 9.4 33.4 24.5 41.9s33.7 8.1 48.5-.9L361 297c14.3-8.7 23-24.2 23-41s-8.7-32.2-23-41L73 39z" />
+                      </svg>
+                    </span>
+                  </div>
+                  <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
+                    <div class="rounded-[18px] w-fit py-1 px-2 inline bg-yellow-YellowTeleantillas text-blue-100 text-xs-b">Medios</div>
+                    <p class="mt-2 text-m-b">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
+                    <div class="mt-2 text-xs text-lightBlue-100">
+                      Victor Santana • 08/04/2024 14:51
+                    </div>
+                  </div>
+                </a>
+              </article>
+            </div>
+          </div>
+
+          <div class="absolute home-swiper-prev-2 rounded-full w-[60px] h-[60px] flex justify-center items-center -left-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-teleantillas" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l160 160c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 246.6 118.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-160 160z" />
+            </svg>
+          </div>
+          <div class="absolute home-swiper-next-2 rounded-full w-[60px] h-[60px] flex justify-center items-center -right-[16px] bg-blue-100 top-[60px] z-50">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-blue-teleantillas" viewBox="0 0 320 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path d="M310.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L242.7 256 73.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+            </svg>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- add banner -->
+     <div class="w-full max-w-[752px] h-40 xl:h-[114px] mt-10 mx-auto p-3 bg-[#F1F3F7]">
+      <div class="w-full h-full bg-[#D6CCFF]"></div>
+    </div>
     <!--  -->
     <section class="mt-10">
       <div class="mb-4 flex items-center justify-between">
@@ -374,7 +500,7 @@ get_header();
         </div>
 
         <a href="#" class="relative block w-full h-full bg-white">
-          <article class="relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
+          <article class="rounded-lg relative w-full h-[300px] bg-gradient-to-t from-overlay-100 to-overlay-0">
             <div class="py-2 px-4 absolute top-2.5 right-2.5 z-[2] ">
               <span class="drop-shadow-md rounded-full w-[34px] h-[34px] flex items-center justify-center bg-lightBlue-primary">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-2 fill-white" viewBox="0 0 384 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->

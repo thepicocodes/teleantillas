@@ -31,8 +31,8 @@
 				<li><a href="<?php echo esc_url(home_url('/Contacto')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b text-black md:text-blue-100 hover:text-yellow-YellowTeleantillas">Películas</a></li>
 				<li><a href="<?php echo esc_url(home_url('/Contacto')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b text-black md:text-blue-100 hover:text-yellow-YellowTeleantillas">Deportes</a></li>
 				<li><a href="<?php echo esc_url(home_url('/Contacto')); ?>" class="block w-full md:w-fit px-1 py-2 text-s-b text-black md:text-blue-100 hover:text-yellow-YellowTeleantillas">Noticias</a></li>
-				<li class="w-max"><a href="<?php echo esc_url(home_url('/')); ?>" class="rounded-lg inline px-2 py-1 text-s-b md:text-blue-100 font-lato bg-yellow-YellowTeleantillas">En vivo</a></li>
-				<li class="w-max"><a href="<?php echo esc_url(home_url('/')); ?>" class="rounded-lg inline px-2 py-1 text-s-b text-blue-50 font-lato bg-[#D4E2F0]">Coral en vivo</a></li>
+				<li class="w-max"><a href="<?php echo esc_url(home_url('/')); ?>" class="rounded-lg inline px-2 py-1 text-s-b md:text-blue-100 font-lato bg-yellow-YellowTeleantillas">EN VIVO</a></li>
+				<li class="w-max"><a href="<?php echo esc_url(home_url('/')); ?>" class="rounded-lg inline px-2 py-1 text-s-b text-blue-50 font-lato bg-[#D4E2F0]">CORAL</a></li>
 			</ul>
 		</nav>
 
@@ -47,9 +47,9 @@
 				</div>
 			</div>
 			<!--  -->
-			<ul class="relative flex flex-row items-center gap-x-4">
+			<ul class="relative flex flex-row items-center gap-x-1">
 				<!-- input toggler icon -->
-				<a href="#" id="search-toggler" class="cursor-pointer">
+				<a href="#" id="search-toggler" class="cursor-pointer p-4">
 					<svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-yellow-YellowTeleantillas" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
 						<path d="M416 208c0 45.9-14.9 88.3-40 122.7L502.6 457.4c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 0L330.7 376c-34.4 25.2-76.8 40-122.7 40C93.1 416 0 322.9 0 208S93.1 0 208 0S416 93.1 416 208zM208 352a144 144 0 1 0 0-288 144 144 0 1 0 0 288z" />
 					</svg>
@@ -62,7 +62,7 @@
 					</span>
 				</a>
 				<li>
-					<a href="#" id="newsletter" class="px-2">
+					<a href="#" id="newsletter" class="p-4">
 						<svg xmlns="http://www.w3.org/2000/svg" class="h-5 fill-yellow-YellowTeleantillas" viewBox="0 0 512 512"><!--!Font Awesome Free 6.5.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
 							<path d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
 						</svg>

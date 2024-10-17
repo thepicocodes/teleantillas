@@ -41,7 +41,7 @@ get_header();
     </div>
     <!--  -->
 
-    <div class="rounded-2xl w-full max-w-[1000px] h-[532px] mt-10 bg-blue-50"></div>
+    <div class="rounded-2xl w-full max-w-[1000px] h-[532px] mt-10 bg-black"></div>
 
     <section class="mt-10">
       <div class="flex flex-row items-center justify-between">
@@ -58,9 +58,11 @@ get_header();
       <div class="mt-4 grid grid-cols-1 md:grid-cols-[1fr_320px] gap-6">
         <div class="flex flex-col gap-y-6">
 
-          <a href="#" class="rounded-lg border border-blue-100">
+          <a href="#" class="rounded-lg border border-blue-100 ">
             <div class="grid md:grid-cols-[300px_1fr] gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="rounded-tl-md rounded-bl-md block w-full lg:w-[300px] h-[300px]">
+              <div class="rounded-tl-md rounded-bl-md bg-blue-teleantillas lg:w-[300px] h-[300px]">
+                <!-- img -->
+              </div>
               <div class="p-4 md:pl-0 flex flex-col justify-between">
                 <div>
                   <h4 class="text-m-b text-blue-900">Episodio #53</h4>
@@ -85,9 +87,11 @@ get_header();
             </div>
           </a>
 
-          <a href="#" class="rounded-lg border border-blue-100">
+          <a href="#" class="rounded-lg border border-blue-100 ">
             <div class="grid md:grid-cols-[300px_1fr] gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="rounded-tl-md rounded-bl-md block w-full lg:w-[300px] h-[300px]">
+              <div class="rounded-tl-md rounded-bl-md bg-blue-teleantillas lg:w-[300px] h-[300px]">
+                <!-- img -->
+              </div>
               <div class="p-4 md:pl-0 flex flex-col justify-between">
                 <div>
                   <h4 class="text-m-b text-blue-900">Episodio #53</h4>
@@ -112,9 +116,11 @@ get_header();
             </div>
           </a>
 
-          <a href="#" class="rounded-lg border border-blue-100">
+          <a href="#" class="rounded-lg border border-blue-100 ">
             <div class="grid md:grid-cols-[300px_1fr] gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="rounded-tl-md rounded-bl-md block w-full lg:w-[300px] h-[300px]">
+              <div class="rounded-tl-md rounded-bl-md bg-blue-teleantillas lg:w-[300px] h-[300px]">
+                <!-- img -->
+              </div>
               <div class="p-4 md:pl-0 flex flex-col justify-between">
                 <div>
                   <h4 class="text-m-b text-blue-900">Episodio #53</h4>
@@ -139,9 +145,11 @@ get_header();
             </div>
           </a>
 
-          <a href="#" class="rounded-lg border border-blue-100">
+          <a href="#" class="rounded-lg border border-blue-100 ">
             <div class="grid md:grid-cols-[300px_1fr] gap-4">
-              <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="rounded-tl-md rounded-bl-md block w-full lg:w-[300px] h-[300px]">
+              <div class="rounded-tl-md rounded-bl-md bg-blue-teleantillas lg:w-[300px] h-[300px]">
+                <!-- img -->
+              </div>
               <div class="p-4 md:pl-0 flex flex-col justify-between">
                 <div>
                   <h4 class="text-m-b text-blue-900">Episodio #53</h4>
@@ -228,9 +236,12 @@ get_header();
     <section class="mt-10">
       <h5 class="text-xl lg:text-h5 text-blue-telesistema">Otros Programas</h5>
       <div class="mt-10 grid md:grid-cols-3 gap-y-10 gap-x-5 justify-center md:justify-start">
+
         <a href="#" class="group relative block w-full h-full bg-white">
           <article class="rounded-lg relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+            <div class="rounded-lg absolute top-0 left-0 w-full h-full bg-blue-teleantillas">
+              <!-- img -->
+            </div>
             <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
               <h5 class="text-m-b">Freites & su gente</h5>
               <p class="mt-1 text-body">Entrevistamos a Stéphane Chaumet, autor de 'Sur les chemins perdus'.</p>
@@ -243,9 +254,12 @@ get_header();
             </div>
           </article>
         </a>
+
         <a href="#" class="group relative block w-full h-full bg-white">
           <article class="rounded-lg relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+            <div class="rounded-lg absolute top-0 left-0 w-full h-full bg-blue-teleantillas">
+              <!-- img -->
+            </div>
             <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
               <h5 class="text-m-b">Freites & su gente</h5>
               <p class="mt-1 text-body">Entrevistamos a Stéphane Chaumet, autor de 'Sur les chemins perdus'.</p>
@@ -258,9 +272,12 @@ get_header();
             </div>
           </article>
         </a>
+
         <a href="#" class="group relative block w-full h-full bg-white">
           <article class="rounded-lg relative w-full h-[480px] bg-gradient-to-t from-overlay-100 to-overlay-0">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/img-06.png" alt="" class="absolute top-0 left-0 w-full h-full">
+            <div class="rounded-lg absolute top-0 left-0 w-full h-full bg-blue-teleantillas">
+              <!-- img -->
+            </div>
             <div class="rounded-lg h-full relative z-[1] p-4 flex flex-col justify-end text-white bg-gradient-to-t from-overlay-100 to-overlay-0">
               <h5 class="text-m-b">Freites & su gente</h5>
               <p class="mt-1 text-body">Entrevistamos a Stéphane Chaumet, autor de 'Sur les chemins perdus'.</p>
@@ -273,6 +290,7 @@ get_header();
             </div>
           </article>
         </a>
+
       </div>
     </section>
 

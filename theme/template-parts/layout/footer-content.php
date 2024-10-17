@@ -102,10 +102,14 @@
 		<!--  -->
 		<div class="border-t border-b mt-12">
 			<ul
-				class="max-w-[1020px] mx-auto py-8 flex flex-row flex-wrap items-center justify-center gap-x-10 gap-y-5">
+				class="max-w-[1240px] mx-auto py-8 flex flex-row flex-wrap items-center justify-center gap-x-10 gap-y-5">
 				<li class="">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/logo-ta.png" alt="Teleantillas"
 						class="h-[60px] object-contain">
+				</li>
+				<li class="">
+					<img src="<?php echo get_template_directory_uri(); ?>/images/el-tizon-logo.png" alt="el tizon deportivo"
+						class=" object-contain">
 				</li>
 				<li class="">
 					<img src="<?php echo get_template_directory_uri(); ?>/images/info-logo.png" alt="Informativos ta"

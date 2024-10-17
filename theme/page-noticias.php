@@ -326,8 +326,8 @@ get_header();
     <section class="mx-auto mt-10 max-w-[960px]">
       <div class="mt-5 grid grid-cols-1 gap-[30px] md:grid-cols-[1fr_300px]">
         <a href="#">
-          <article class="from-overlay-100 to-overlay-0 relative h-[460px] w-full bg-gradient-to-t">
-            <img src="<?php echo get_template_directory_uri(); ?>/images/espectaculos.png" alt="" class="absolute left-0 top-0 h-full w-full object-cover rounded-lg">
+          <article class="rounded-lg from-overlay-100 to-overlay-0 relative h-[460px] w-full bg-gradient-to-t">
+            <img src="<?php echo get_template_directory_uri(); ?>/images/img-01.png" alt="" class="absolute left-0 top-0 h-full w-full object-cover rounded-lg">
             <div class="from-overlay-100 to-overlay-0 relative z-[1] flex h-full flex-col justify-end rounded-lg bg-gradient-to-t p-5 text-white lg:p-10">
               <span class="rounded-[18px] w-fit py-1 px-2 bg-yellow-YellowTeleantillas text-xs-b">Farándula</span>
               <p class="text-m-b lg:text-h4 mt-2">Lorem ipsum dolor sit amet, consectetur adipiscing elit...</p>
