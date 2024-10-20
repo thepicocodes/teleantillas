@@ -31,14 +31,27 @@ get_header();
         <h3 class="text-xl-g lg:text-h5 text-blue-900">Programas</h3>
 
         <div class="flex items-center gap-x-1 text-yellow-YellowTeleantillas">
-          <div class="relative inline-block text-left dropdown bg-white">
-            <button class="inline-flex items-center justify-center gap-x-1 w-full px-4 py-2 text-m-b"
-              type="button" aria-haspopup="true" aria-expanded="true" aria-controls="headlessui-menu-items-117">
-              <span>Todos</span>
-              <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-yellow-YellowTeleantillas" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
-                <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
-              </svg>
-            </button>
+          <div class="text-left dropdown bg-white">
+
+            <div class="relative inline-block text-left text-[#565656]">
+              <button id="dropdownButton" type="button" class="inline-flex items-center gap-x-1 justify-between w-full text-2xl font-bold text-black" onclick="toggleDropdown()">
+                <span id="selected-category" class="text-m-b text-yellow-YellowTeleantillas">Todos</span>
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-4 fill-yellow-YellowTeleantillas" viewBox="0 0 512 512"><!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+                  <path d="M233.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L256 338.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                </svg>
+              </button>
+
+              <div id="dropdownMenu" class="hidden absolute mt-2 w-56 rounded-md shadow-lg bg-white ring-1 ring-[#E6E6E6] z-50">
+                <div class="py-1">
+                  <button onclick="selectCategory('Todos')" class="block px-4 py-2 text-sm w-full text-left text-[#565656]">Todos</button>
+                  <button onclick="selectCategory('Novelas')" class="block px-4 py-2 text-sm w-full text-left text-[#565656]">Novelas</button>
+                  <button onclick="selectCategory('Información y opinión')" class="block px-4 py-2 text-sm w-full text-left text-[#565656]">Información y opinión</button>
+                  <button onclick="selectCategory('Películas')" class="block px-4 py-2 text-sm w-full text-left text-[#565656]">Películas</button>
+                  <button onclick="selectCategory('Deportes')" class="block px-4 py-2 text-sm w-full text-left text-[#565656]">Deportes</button>
+                </div>
+              </div>
+            </div>
+
             <div class="hidden dropdown-menu relative z-10 bg-white">
               <div class="border border-[#E6E6E6] rounded-md absolute left-0 w-56 mt-2 origin-top-right divide-gray-100 bg-white" aria-labelledby="headlessui-menu-button-1" id="headlessui-menu-items-117" role="menu">
                 <div id="filterSelect" class="">
